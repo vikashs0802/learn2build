@@ -1,0 +1,19 @@
+.todo-list {
+  list-style-type: none;
+
+}
+.sub-item-link {
+  text-decoration: none;
+}
+.sub-item-link:hover {
+  
+  color: #499494;
+}
+.sub-item-link:active {
+  
+  color: #8c713f;
+}
+.sub-item-link:visited {
+  
+  color: #091414;
+}
