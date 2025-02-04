@@ -1,0 +1,59 @@
+body {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+
+}
+.container {
+	background-color: white;
+	width: 75%;
+	height: 90%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10%;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+
+}
+.form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px auto;
+	width: auto;
+	height: auto;
+	
+}
+input, textarea, select {
+	border: 1px solid red;
+	width: 100%; /* Set the desired width here */
+	max-width: 300px; /* Optional: set a max width */
+	padding: 10px; /* Optional: add padding for a consistent look */
+
+	box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+	
+}
+
+	
+
+label {
+	font-weight: bold;
+	display: inline-block;
+	text-align: left;
+	
+}
+
+
+button {
+	background-color: green;
+	color: white;
+	width: 150px;
+	height: 35px;
+	
+	
+}
+
+button:hover {
+	background-color: black;
+	
