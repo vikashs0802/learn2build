@@ -5,37 +5,36 @@ body {
 
 
 }
-.container {
-	background-color: white;
-	width: 75%;
-	height: 90%;
-	display: block;
-	margin: 0 auto;
-	border-radius: 10%;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-	padding: 20px;
 
-}
-.form-group {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 20px auto;
-	width: auto;
-	height: auto;
-	
-}
-input, textarea, select {
-	border: 1px solid red;
-	width: 100%; /* Set the desired width here */
-	max-width: 300px; /* Optional: set a max width */
-	padding: 10px; /* Optional: add padding for a consistent look */
 
-	box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
-	
+input:focus, textarea:focus {
+	border-color: brown;
+}
+input:invalid, select:invalid, textarea:invalid {
+	border-color: red;
+}
+input:valid, select:valid, textarea:valid {
+	border-color: green;
 }
 
-	
+.radio-group input[type="radio"] {
+	border: 1px solid black; /* Default border */
+	background-color: white; /* Default background */
+}
+
+.radio-group input[type="radio"]:checked {
+	border-color: brown;
+	background-color: aliceblue;
+	box-shadow: 0 0 5px darkgray;
+}
+
+.radio-group input[type="radio"]:checked + label {
+	color: blue;
+}
+
+input:nth-child(1) {
+	border-radius: 20px;
+}
 
 label {
 	font-weight: bold;
